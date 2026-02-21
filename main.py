@@ -17,7 +17,7 @@ class AppFinanceiro:
         self.content.place(relx=0.5, rely=0.5, anchor="center")
 
         # Título
-        tk.Label(self.content, text="Analista de Extratos", font=("Segoe UI", 20, "bold"), bg="#f0f2f5").pack(pady=10)
+        tk.Label(self.content, text="Relatório de Gastos", font=("Segoe UI", 20, "bold"), bg="#f0f2f5").pack(pady=10)
 
         # Input Centralizado
         tk.Label(self.content, text="Arquivo selecionado:", bg="#f0f2f5").pack(anchor="w")
